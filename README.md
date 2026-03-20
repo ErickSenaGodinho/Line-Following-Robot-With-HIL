@@ -35,7 +35,7 @@ O projeto suporta dois modos de execução:
 
 - `main.py` → Script principal  
 - `line_following_with_HIL.py` → Execução com ESP32 (HIL)  
-- `line_following_with_HIL_without_ESP32.py` → Execução sem hardware  
+- `line_following_without_ESP32.py` → Execução sem hardware  
 
 ## HIL (Hardware-in-the-Loop)
 
@@ -47,7 +47,7 @@ HIL é uma abordagem que combina **hardware real** (ESP32) com **simulação** (
 2. Carregar um mundo da pasta `/worlds`  
 3. Selecionar um controlador da pasta `/controllers`:
    - Com ESP32 → `line_following_with_HIL.py`  
-   - Sem ESP32 → `line_following_with_HIL_without_ESP32.py`  
+   - Sem ESP32 → `line_following_without_ESP32.py`  
 
 ## Autor
 
