@@ -14,6 +14,12 @@ O projeto suporta dois modos de execução:
 - **Com ESP32** (Hardware-in-the-Loop - HIL)  
 - **Sem ESP32** (simulação completa no Webots)  
 
+## Demonstração
+
+**Execução do robô seguindo linha:**
+
+![Demonstração](./following-line-robot.gif)
+
 ## Tecnologias
 
 - Python  
